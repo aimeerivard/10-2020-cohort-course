@@ -1,0 +1,54 @@
+body {
+    background-color: #b0e0e6;
+}
+
+h1, h2 {
+    width: 502px;
+}
+
+h1, h2, button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darksalmon;
+    color: #ff4500;
+    text-align: center;
+    padding:2px;
+    border: 2px #ff4500 solid;
+}
+
+button {
+    display: inline-block;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+#window1 {
+    border: 5px white solid;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+}
+
+#window2 {
+    border: 5px white solid;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+}
+
+@keyframes carousel {
+    from {transform: translateX(0px);}
+    to {transform: translateX(-6500px);}
+}
+
+#imageSlider1 {
+    display: flex;
+    animation-name: carousel;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    transition-timing-function: step-start;
+}
+
+#imageSlider2 {
+    display: flex;
+}
