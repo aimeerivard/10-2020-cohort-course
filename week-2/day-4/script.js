@@ -6,6 +6,7 @@ var prevImage = function() {
 }
 
 var nextImage = function() {
-    currentPosition = currentPosition - 500;
+    currentPosition = (currentPosition - 500) % 6500;
     document.getElementById('imageSlider2').style.transform = 'translateX(' + currentPosition + 'px)'
 }
+
