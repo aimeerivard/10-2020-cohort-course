@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <h1>Web Calculator</h1>
+    <div id="calcDisplay">
+        <p>Enter two numbers to add together</p>
+        <div>
+            <span>
+                <input type="text" id="sum1" value=''> + <input type="text" id="sum2" value=''> =
+            </span>
+            <button onclick="sum()">Add</button>
+        </div>
+        <p>Enter two numbers to get the difference</p>
+        <div>
+            <span>
+                <input type="text" id="sub1" value=''> - <input type="text" id="sub2" value=''> =
+            </span>
+            <button onclick="sub()">Subtract</button>
+        </div>
+        <p>Enter two numbers to multiply</p>
+        <div>
+            <span>
+                <input type="text" id="mul1" value=''> * <input type="text" id="mul2" value=''> =
+            </span>
+            <button onclick="mul()">Multiply</button>
+        </div>
+        <p>Enter two numbers to divide</p>
+        <div>
+            <span>
+                <input type="text" id="divi1" value=''> / <input type="text" id="divi2" value=''> =
+            </span>
+            <button onclick="divi()">Divide</button>
+        </div>
+    </div>
+<script src="./calculator.js"></script>
+</body>
+</html>

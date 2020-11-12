@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+    padding-left: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: rgb(207, 231, 238);
+    border: 2px rgb(28, 75, 102) solid;
+    text-align: center;
+    width: 470px;
+}
+
+h1, p, button, span, input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(28, 75, 102);
+}
+
+button {
+    background-color: lemonchiffon;
+    border: 2px rgb(28, 75, 102) solid;
+    margin-top: 5px;
+    width: 80px;
+}
+
+#calcDisplay {
+    background-color: rgb(207, 231, 238);
+    border: 2px rgb(28, 75, 102) solid;
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+}
+
