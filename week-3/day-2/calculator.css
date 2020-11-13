@@ -11,7 +11,7 @@ h1 {
     width: 470px;
 }
 
-h1, p, button, span, input {
+h1, p, button, input {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(28, 75, 102);
 }
@@ -29,5 +29,10 @@ button {
     width: 450px;
     height: 450px;
     padding: 10px;
+}
+
+span {
+    font-family: monospace;
+    color: rgb(28, 75, 102);
 }
 
